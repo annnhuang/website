@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = 'en-us'
 title = 'ann huang'
 theme = "astatine"
+disqusShortname = "annhuang"
 
 preserveTaxonomyNames = true
 rssLimit = 10

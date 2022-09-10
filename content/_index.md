@@ -11,7 +11,7 @@ address:
     name: institute for cognitive science
     street: wachsbleiche 27
     postal_code: "49090"
-    locality: osnabrück, lower saxony, germany
+    locality: osnabrück, germany
 
 publications:
   - 
