@@ -46,4 +46,4 @@ publications:
 ---
 # bio
 
-just an ordinary potato living in the land of potatoes striving for some extraordinary experiences 🇩🇪
+just an ordinary potato living in the land of potatoes striving for some extraordinary experiences 🇩🇪 ocassionally using my brain to study brains
