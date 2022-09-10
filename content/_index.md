@@ -46,4 +46,4 @@ publications:
 ---
 # bio
 
-hello world.
+just an ordinary potato living in the land of potatoes striving for some extraordinary experiences 🇩🇪
