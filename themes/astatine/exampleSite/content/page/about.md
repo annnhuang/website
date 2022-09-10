@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "about"
 date = "2018-02-09"
 hideAuthor = true
 hideDate = true

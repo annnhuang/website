@@ -38,8 +38,8 @@ pygmentsStyle = "native"
     weight = -130
 
 [params]
-    description = "The homepage of Astatine"
-    authorName = "Ann Huang"
+    description = "the homepage of ann huang"
+    authorName = "ann huang"
     [params.imgname]
         name = "img/main.jpg"
         alt = "Profile picture"
