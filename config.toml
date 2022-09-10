@@ -51,6 +51,12 @@ pygmentsStyle = "native"
     height = 50
     alt = "Logo"
 
+    [params.social.share]
+      facebook = true
+      linkedin = true
+      twitter = true
+      whatsapp = false
+      email = true
 
 [sitemap]
   filename = "sitemap.xml"
