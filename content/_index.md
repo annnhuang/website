@@ -4,56 +4,46 @@ imgname:
   alt: "Picture of me"
   type: image/jpeg
   
-name: "Astatine"
-personal_title: "Chemical element"
+name: "ann huang"
+personal_title: "phd student"
 address: 
   - 
-    name: Everywhere
-    street: Nowhere
-    postal_code: "000000"
-    locality: Earth
+    name: institute for cognitive science
+    street: wachsbleiche 27
+    postal_code: "49090"
+    locality: osnabrück, lower saxony, germany
 
 publications:
   - 
-    me: Rothe, S. 
+    me: Huang, A.
     authors:
-        - Andreyev, A. N. 
-        - Antalic, S.
-        - Borschevsky, A.
-        - Capponi, L.
-        - Cocolios, T. E.
-        - De Witte, H.
-        - Eliav, E
-    title: "Measurement of the First Ionization Potential of Astatine by Laser Ionization Spectroscopy"
-    date: 2013
-    journal: Nature Communications
-    image: img/paper_illustration.png
-    citation: "@article{article,\n
-author = {Rothe, Sebastian and Andreyev, A and Antalic, Stanislav and Borschevsky, Anastasia and Capponi, Luigi and Cocolios, Thomas and De Witte, Hilde and Eliav, Ephraim and Fedorov, D.V. and Fedosseev, Valentin and Fink, D and Fritzsche, s and Ghys, Lars and Huyse, M and Imai, Nobuaki and Kaldor, U and Kudryavtsev, Yu and Koester, Ulli and Lane, J and Wendt, Klaus},\n
-year = {2013},\n
-month = {05},\n
-pages = {1835},\n
-title = {Measurement of the first ionization potential of astatine by laser ionization spectroscopy},\n
-volume = {4},\n
-journal = {Nature communications},\n
-doi = {10.1038/ncomms2819}\n
+        - Knierim, P.
+        - Chiossi, F.
+        - Chuang, L.
+        - Welsch, R.
+    title: "Proxemics for Human-Agent Interaction in Augmented Reality"
+    date: 2022
+    journal: CHI Conference on Human Factors and Computing Systems
+    image: img/teaser.png
+    citation: "@inproceedings{huang2022proxemics,
+  title={Proxemics for Human-Agent Interaction in Augmented Reality},
+  author={Huang, Ann and Knierim, Pascal and Chiossi, Francesco and Chuang, Lewis L and Welsch, Robin},
+  booktitle={CHI Conference on Human Factors in Computing Systems},
+  pages={1--13},
+  year={2022}
 }"
-    pdf: https://www.nature.com/articles/ncomms2819.pdf
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3491102.3517593?casa_token=nX-varcjsdYAAAAA:YmU71bZNn6IHGC938qCRORqUgNzAELkwlE66bEPe2brgTyRQL2jIG0lF-D9U1rgRBXYX11y3oXxcSA
+
     links:
       -
         name: Main URL
-        url: "https://www.nature.com/articles/ncomms2819"
+        url: "https://dl.acm.org/doi/10.1145/3491102.3517593"
       -
         name: ResearchGate
-        url: "https://www.researchgate.net/publication/236836716_Measurement_of_the_first_ionization_potential_of_astatine_by_laser_ionization_spectroscopy"
-    description: The radioactive element astatine exists only in trace amounts in nature. Its properties can therefore only be explored by study of the minute quantities of artificially produced isotopes or by performing theoretical calculations. One of the most important properties influencing the chemical behaviour is the energy required to remove one electron from the valence shell, referred to as the ionization potential.
+        url: "https://www.researchgate.net/publication/360238994_Proxemics_for_Human-Agent_Interaction_in_Augmented_Reality"
+    
+    description: Augmented Reality (AR) embeds virtual content in physical spaces, including virtual agents that are known to exert a social presence on users. Existing design guidelines for AR rarely consider the social implications of an agent's personal space (PS) and that it can impact user behavior and arousal. We report an experiment (N=54) where participants interacted with agents in an AR art gallery scenario. When participants approached six virtual agents (i.e., two males, two females, a humanoid robot, and a pillar) to ask for directions, we found that participants respected the agents' PS and modulated interpersonal distances according to the human-like agents' perceived gender. When participants were instructed to walk through the agents, we observed heightened skin-conductance levels that indicate physiological arousal. These results are discussed in terms of proxemic theory that result in design recommendations for implementing pervasive AR experiences with virtual agents.
 ---
-# Bio
+# bio
 
-I am a chemical element with the symbol At and atomic number 85. I am 
-the rarest naturally occurring element in the Earth's crust, occurring only as
-the decay product of various heavier elements. All of my isotopes are
-short-lived; the most stable is astatine-210, with a half-life of 8.1 hours. 
-
-A pure sample of myself has never been assembled, because any macroscopic
-specimen would be immediately vaporized by the heat of its own radioactivity.
+Hello world.

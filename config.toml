@@ -1,15 +1,13 @@
 baseurl = "https://hugcis.github.io/hugo-astatine-theme/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ann huang'
 theme = "astatine"
-
 
 preserveTaxonomyNames = true
 rssLimit = 10
 paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
-
 
 [taxonomies]
     category = "categories"  
@@ -20,28 +18,28 @@ pygmentsStyle = "native"
     page = "/:slug/"
 
 [[menu.main]]
-    name = "Posts"
+    name = "posts"
     url = "/post/"
     weight = -150
 
 [[menu.main]]
-    name = "About"
+    name = "about"
     url = "/about/"
     weight = -110
     
 [[menu.main]]
-    name = "Tags"
+    name = "tags"
     url = "/tags/"
     weight = -120
 
 [[menu.main]]
-    name = "Categories"
+    name = "categories"
     url = "/categories/"
     weight = -130
 
 [params]
     description = "The homepage of Astatine"
-    authorName = "Jack Harkness"
+    authorName = "Ann Huang"
     [params.imgname]
         name = "img/main.jpg"
         alt = "Profile picture"

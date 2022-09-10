@@ -1,8 +1,7 @@
 +++
 title = "About"
-date = "2018-02-09"
 hideAuthor = true
 hideDate = true
 +++
 
-We know that an improvement is a themeless diploma. Those coughs are nothing more than distributors. Postiche authorizations show us how poisons can be organisations. The thumb of a tsunami becomes a widest downtown.
+Hello there 👋🏼! Thanks for dropping by. This site is dedicated to documenting my thoughts about life, academia, and everything in between.
