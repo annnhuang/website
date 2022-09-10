@@ -1,0 +1,49 @@
+{{ define "main" }}
+    <article class="article" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="title-container">
+    <h1 class="article-title" itemprop="name">{{ .Title }}</h1>
+    {{ if .Params.Headline }}<b><i itemprop="headline" class="article-headline">{{ .Params.Headline }}</i></b>{{ end }}
+    <div class="article-subtitle">
+    {{ if not .Params.hideDate }}
+    <span class="article-date" itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "2006-01-02" }}</span>
+    {{ end }}
+    {{ if not .Params.hideAuthor }}
+    {{ if not .Params.author }}
+    <span class="article-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ $.Site.Params.authorName }}</span></span>
+    {{ else  }}
+    <span class="article-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ .Params.author }}</span></span>
+    {{ end }}
+    {{ end }}
+    </div>
+    {{ if .Params.Readingtime }}
+    <div>
+        Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.
+    </div>
+    {{ end }}
+    </div>
+
+    <div class="article-content" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    {{ partial "taxonomy.html" . }}
+    {{ if .Params.references }}
+    <hr>
+    <div class="references" >
+        <h3>References</h3>
+        <div class="references-list" >
+        <ol>
+            {{ range $elem_index, $elem_val := .Params.references }}
+            <li id="{{ $elem_val.id }}"><b>{{$elem_val.authors}}</b>. {{$elem_val.text}}</li>
+            {{ end }}
+        </ol>
+        </div>
+    </div>
+    {{ end }}
+    {{ if not .Params.hideDate }}
+    <div class="article-date-modified">
+        Last modified <span itemprop="dateModified" content="{{ .Lastmod.Format  "2006-01-02T15:04:05Z0700" }}">{{ .Lastmod.Format "2006-01-02"  }}</span>
+    </div>
+    {{ end }}
+    </article>
+{{ end }}
