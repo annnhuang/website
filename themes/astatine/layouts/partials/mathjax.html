@@ -1,17 +1,22 @@
-<link rel="stylesheet" href="/js/katex/katex.min.css">
-<script src="/js/katex/katex.min.js"></script>
-<script src="/js/katex/contrib/auto-render.min.js"></script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    renderMathInElement(document.body, {
-        delimiters: [
-            {left: "\\[", right: "\\]", display: true},
-            {left: "\\begin{align}", right: "\\end{align}", display: true},
-            {left: "$$", right: "$$", display: true},
-            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
-            {left: "$", right: "$", display: false},
-            {left: "\\(", right: "\\)", display: false},
-        ]
-    })
-    });
-</script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
