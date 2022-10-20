@@ -42,7 +42,7 @@ pygmentsStyle = "native"
     description = "the homepage of ann huang"
     authorName = "ann huang"
     [params.imgname]
-        name = "img/main.jpg"
+        name = "img/main-new.jpg"
         alt = "Profile picture"
 
     [params.logo]
